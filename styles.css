@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/*TODO: adjust colors later*/
+:root {
+    --text-heading: #0A0A0A;
+    --text-general: #111010;
+    --text-code: #3a3a3a;
+    --main-background: #eaeaea;
+    --odd-section-background: #c9c9c9;
+    --even-section-background: #a7a7a7;
+    --code-background: #f0f0f0;
+}
+
+
