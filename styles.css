@@ -16,4 +16,6 @@
     --code-background: #f0f0f0;
 }
 
-
+body {
+    font-size: 1em;
+}
