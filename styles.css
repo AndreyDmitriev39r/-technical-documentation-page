@@ -2,6 +2,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -16,8 +18,12 @@
     --code-background: #f0f0f0;
 }
 
-body {
+body { 
     font-size: 1em;
+}
+
+main {
+    background-color: var(--main-background);
 }
 
 h1, h2 {
