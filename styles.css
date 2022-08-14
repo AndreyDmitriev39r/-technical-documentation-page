@@ -19,3 +19,18 @@
 body {
     font-size: 1em;
 }
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    color: var(--text-heading);
+}
+
+h1 {
+    font-size: 1.85em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.35em;
+    margin-left: 1.9em;
+}
