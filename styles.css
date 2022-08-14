@@ -6,8 +6,6 @@
     padding: 0;
 }
 
-
-/*TODO: adjust colors later*/
 :root {
     --text-heading: #0A0A0A;
     --text-general: #111010;
@@ -40,3 +38,13 @@ h2 {
     font-size: 1.35em;
     margin-left: 1.9em;
 }
+
+/*TODO: 
+move nav panel to the left top side
+add content to at least one of examples section: code and text
+choose fonts for such elems
+set background for odd and even sections.
+set margins and paddings
+add sections with relevant links
+add footer
+*/
