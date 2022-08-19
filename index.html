@@ -74,12 +74,20 @@
       <section class="main-section" id="Linear_complexity">
         <h2>Linear complexity O(n)</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
+          If number of operations is growing at the same rate as input, that means we are dealing with linear complexity. Some problem which can be solved with single loop will be a perfect example: let's print out square root for every number in a given array.
         </p>
+        <pre>
+          <code>
+            const squareRootForEveryOne = (arr) => {
+              for (let i = 0; i < arr.length; i++) {
+                console.log(Math.sqrt(arr[i]));
+              }
+            }
+          </code>
+        </pre>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
-        </p>
-        <code>code_example</code>
+          Here number of operations will be the same as length of array: 3 operations for array with 3 elements, 5 - for array with 5 elements, etc.
+        </p>        
       </section>
       <section class="main-section"  id="Logarithmic_complexity">
         <h2>Logarithmic complexity O(log n)</h2>
@@ -89,13 +97,14 @@
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
         </p>
-        <code>code_example</code>
+        <pre><code>code_example</code></pre>
       </section>
       <section class="main-section"  id="Linear-logarithmic_complexity">
         <h2>Linear-logarithmic complexity O(n*log n)</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
         </p>
+        <pre><code>code_example</code></pre>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?          
         </p>
@@ -105,20 +114,20 @@
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
         </p>
+        <pre><code>code_example</code></pre>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
-        </p>
-        <code>code_example</code>      
+        </p>         
       </section>
       <section class="main-section" id="Exponential_complexity">
         <h2>Exponential complexity O(c^n)</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
         </p>
+        <pre><code>code_example</code></pre>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vel veniam ipsa illo consequuntur excepturi ratione similique quod itaque porro esse deserunt beatae dolorum aperiam, hic explicabo numquam deleniti neque?
-        </p>
-        <code>code_example</code>
+        </p>        
       </section>
     </main>
   </body>
